@@ -1,1 +1,1 @@
-# ebookML4Science
+# [ebook] Machine Learning for the Sciences
