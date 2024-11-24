@@ -1,0 +1,7 @@
+\babel@toc {vietnamese}{}\relax 
+\contentsline {section}{\textbf {Preface}}{1}{}%
+\contentsline {chapter}{\numberline {1}Giới thiệu}{3}{}%
+\contentsline {chapter}{\numberline {2}Kiến thức Toán học Cơ bản}{4}{}%
+\contentsline {section}{\numberline {2.1}Đại số tuyến tính}{4}{}%
+\contentsline {section}{\numberline {2.2}Giải tích}{4}{}%
+\contentsline {section}{\numberline {2.3}Xác suất thống kê}{4}{}%

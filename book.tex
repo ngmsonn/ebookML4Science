@@ -1,0 +1,63 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{graphicx}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst}
+
+\author{Nguyen Manh Son \\
+        \small VNU University of Science, Hanoi, Vietnam \\}
+
+\title{Machine Learning for the Sciences}
+\date{}
+
+\begin{document}
+\onehalfspacing
+\maketitle
+
+\section*{Preface}
+\addcontentsline{toc}{section}{\textbf{Preface}}
+% Trí tuệ nhân tạo trong cuộc sống
+Trong những năm gần đây, trí tuệ nhân tạo, đặc biệt là các nhánh học máy và học sâu, đã vươn lên mạnh mẽ,
+đem lại những lợi ích lớn cho cuộc sống. Từ những trợ lý ảo thông minh trên điện thoại, 
+các hệ thống gợi ý cá nhân hóa trên mạng xã hội, đến những chiếc xe tự hành,
+trí tuệ nhân tạo không chỉ cải thiện trải nghiệm sống mà còn mở ra vô vàn tiềm năng cho tương lai.
+Khó có thể phủ nhận rằng, trí tuệ nhân tạo sẽ tiếp tục phát triển trong từng khía cạnh của cuộc sống con người.
+
+% Quá trình nghiên cứu của bản thân
+Cuốn sách này, \textit{Machine Learning for the Sciences} được tôi viết lại như chuyến tham quan từ chính sự đam mê và tò mò
+khi mong muốn giao thoa hai lĩnh vực là Khoa học Máy tính và Khoa học Cơ bản như Hóa học, Vật lý và Sinh học.
+Là sinh viên chuyên ngành Hóa học tại trường Khoa học Tự nhiên, Đại học Quốc gia Hà Nội, nhiều năm làm việc và
+cứu về các vấn đề liên quan tới trí tuệ nhân tạo trong Hóa học như phát triển thuốc mới trong điều trị ung thư,
+phát triển phương pháp phân tích không phá hủy mẫu dựa trên thuật toán học máy và học sâu, mặc dù gặp rất nhiều
+khó khăn và thách thức, những tất cả đều đem lại cho tôi một góc nhìn mới. 
+Tôi có thể hiểu những cách tiếp cận khác từ các công thức phân tử hóa học, chúng không chỉ là
+những ký tự C, H, O hay những nét que mà nhiều người vẫn nhức đầu khi nhìn vào chúng, có vô vàn cách
+biểu diễn khác cho chúng và với từng cách biểu diễn có ưu điểm, nhược điểm và ứng dụng riêng cho từng nhiệm vụ
+khác nhau. Đối với cách tiếp cận truyền thống, việc thực hiện các thí nghiệm cần rất nhiều thời gian và kinh phí,
+tuy nhiên, với sự giúp đỡ của trí tuệ nhân tạo, tôi dễ dàng giảm lượng thời gian đó xuống đi rất nhiều mà
+hiệu quả không hề giảm. Tôi tin rằng, cuốn sách này sẽ phù hợp với tất cả mọi người,
+cho dù bạn là một người theo đuổi lĩnh vực học học có đam mê khoa học cơ bản hay những nhà khoa học đang tò mò
+về cách trí tuệ nhân tạo được ứng dụng trong khoa học.
+
+% Giới thiệu những gì sẽ có trong cuốn sách
+Trong hành chính khám phá sự kết nối giữa trí tuệ nhân tạo và khoa học cơ bản, tôi sẽ thảo luận
+từ những kiến thức toán học nền tảng, nguyên lý của các thuật toán cho đến những ứng dụng hiện nay của trí tuệ nhân tạo
+trong lĩnh vực khoa học cụ thể. Những đoạn mã được sử dụng trong cuốn sách này sẽ được viết bằng ngôn ngữ lập trình Python
+(phiên bản 3.11 cho tới thời điểm tôi đang viết), bạn có thể tìm chúng tại Github của cuốn sách: https://github.com/ngmsonn/ebookML4Science.
+Nếu có bất kì sai sót, vấn đề nào trong cuốn sách, tôi sẽ rất biết ơn nếu bạn cung cấp cho tôi để có thể đóng góp cho cộng đồng.
+
+% Lời cảm ơn tới PGS. TS. Tạ Thị Thảo và PGS. TS. Phan Minh Giang
+
+Chúc bạn một ngày tốt lành!!!
+
+
+
+\tableofcontents
+
+\include{Chapters/0_Introduction/chapter_1}
+\include{Chapters/1_MathematicsBasic/chapter_2}
+
+\end{document}
